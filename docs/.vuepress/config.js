@@ -41,8 +41,13 @@ module.exports = {
         link: "/gui/agama/introduction.md"
       },
       {
-        text: "Resources",
-        items: [{
+        text: "Developers",
+        items: [
+          {
+            text: "Learning Komodo",
+            link: "/developers/introduction.md"
+          },
+          {
             text: "Komodo Platform",
             link: "/resources/list-all-KomodoPlatform-repos-links.md"
           },
@@ -541,6 +546,95 @@ module.exports = {
               "/notary/useful-commands-Komodo-Notary-Node.md",
               "Useful commands for Komodo Notary Node"
             ]
+          ]
+        }
+      ],
+      "/developers/":[
+        [
+          "introduction.md","Introduction"
+        ],
+        [
+          "core-concepts.md", "Core Concepts"
+        ],
+        {
+          title: "Getting Started",
+          collapsable: true,
+          children: [
+            ["/developers/getting-started/building-komodo.md", "Building & Navigating Komodo"],
+            ["/developers/getting-started/create-custom-blockchain.md", "Create Custom Blockchains"],
+            ["/developers/getting-started/blockchain-parameters.md", "Blockchain Parameters"],
+            ["/developers/getting-started/blockchain-interoperability.md", "Blockchain Interoperability"],
+            ["/developers/getting-started/mimic-chain.md", "MIMIC Coin"]
+          ]
+        },
+        [
+          "getting-help.md", "Getting Help"
+        ],
+        {
+          title: "Technical Paths",
+          collapsable: true,
+          children: [
+            [ "/developers/technical-path/network-engineers.md", "Network Engineers"],
+            [ "/developers/technical-path/game-developers.md", "Game Developers"],
+            [ "/developers/technical-path/devops-engineers.md", "Devops Engineers"],
+            [ "/developers/technical-path/business-analysts.md", "Business Analysts"],
+            [ "/developers/technical-path/cryptographers.md", "Cryptographers"]
+          ]
+        },
+        {
+          title: "Non Technical Paths",
+          collapsable: true,
+          children: [
+            [ "/developers/non-technical-path/marketers.md", "Marketers"],
+            [ "/developers/non-technical-path/economists.md", "Economists"],
+            [ "/developers/non-technical-path/sociologists.md", "Sociologists"],
+            [ "/developers/non-technical-path/entrepreneurs.md", "Entrepreneurs"]
+          ]
+        },
+        [
+          "ecosystem-services.md", "Ecosystem Services"
+        ],
+        {
+          title: "Infrastructure & Operations",
+          collapsable: true,
+          children: [
+            [ "/developers/infrastructure-operations/full-nodes.md", "Full Nodes & Updates"],
+            [ "/developers/infrastructure-operations/blockchain-security.md", "dPoW Blockchain Security"],
+            [ "/developers/infrastructure-operations/wallet-dex-listing.md", "Wallet & DEX Listing"],
+            [ "/developers/infrastructure-operations/explorers.md", "Explorers"],
+            [ "/developers/infrastructure-operations/electrum.md", "Electrum Servers"],
+            [ "/developers/infrastructure-operations/mining-pools.md", "Mining Pools"]
+          ]
+        },
+        [
+          "placeholder-kmd-api.md", "Komodo API"
+        ],
+        [
+          "placeholder-cc.md", "Application Consensus Framework"
+        ],
+        {
+          title: "Games",
+          collapsable: true,
+          children: [
+            [ "/developers/games/sudoku.md", "Sudoku"],
+            [ "/developers/games/rogue.md", "Rogue"],
+            [ "/developers/games/tetris.md", "Tetris"]
+          ]
+        },
+        {
+          title: "Developer Guides",
+          collapsable: true,
+          children: [
+            [ "/developers/guides/faucet.md", "Faucet"],
+            [ "/developers/guides/guides.md", "Guides Placeholder"],
+            [ "/developers/guides/packaging-modules.md", "Packaging Modules"]
+          ]
+        },
+        {
+          title: "Developer Focus",
+          collapsable: true,
+          children: [
+            [ "/developers/focus/focus.md", "Focus Placeholder"]
           ]
         }
       ],
